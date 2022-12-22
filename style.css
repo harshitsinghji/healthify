@@ -1,0 +1,60 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.card-section{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.topic{
+    font-family: 'Poppins', sans-serif;
+}
+.navvbar{
+    font-family: 'Poppins', sans-serif;
+}
+
+.text-custom{
+    color: #bf461e;
+    font-weight: 600;
+}
+
+.text-custom:hover{
+    color: brown;
+}
+
+.button-custom{
+    border: 1px solid black;
+}
+
+.button-custom:hover{
+    
+    background-color:  #bf461e;
+    color: white;
+}
+
+/* background section  */
+
+.background{
+    background: rgba(0, 0, 0, 0.7) url(./img5.jpg)no-repeat center center/cover;
+    background-blend-mode: darken;
+    height: 85vh;
+}
+
+.cardd{
+    background-color: #e3e2e2;
+}
+
+@media only screen and (max-width : 1000px){
+    .button-custom{
+        display: none;
+    }
+}
+
+@media only screen and (max-width : 600px){
+    .card-section{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
